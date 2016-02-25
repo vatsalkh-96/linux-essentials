@@ -46,5 +46,10 @@ sudo apt-get install r-base-dev
 echo "-- Installing Gimp --"
 sudo apt-get install gimp -y
 
-echo "Installing Latex"
+echo "-- Installing Latex --"
 sudo apt-get install texlive-latex-extra -y
+
+echo "-- Installing f.lux --"
+sudo add-apt-repository ppa:kilian/f.lux -y 
+sudo apt-get update
+sudo apt-get install fluxgui -y
