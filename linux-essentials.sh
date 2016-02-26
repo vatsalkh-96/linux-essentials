@@ -35,9 +35,6 @@ echo "-- Installing tmux --"
 sudo apt-get update
 sudo apt-get install tmux
 
-echo "-- Installing iPython --"
-sudo pip install --upgrade ipython[all]
-
 echo "-- Installing r-base --"
 sudo apt-get update
 sudo apt-get -y install r-base
