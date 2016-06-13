@@ -46,7 +46,13 @@ sudo apt-get install gimp -y
 echo "-- Installing Latex --"
 sudo apt-get install texlive-latex-extra -y
 
-echo "-- Installing f.lux --"
+echo "-- Installing Flux --"
 sudo add-apt-repository ppa:kilian/f.lux -y 
 sudo apt-get update
 sudo apt-get install fluxgui -y
+
+echo "-- Installing imagemagick --"
+sudo apt-get install imagemagick
+
+echo "-- Installing pdftk --"
+sudo apt-get install pdftk
