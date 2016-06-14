@@ -28,17 +28,15 @@ sudo apt-get install ack-grep -y
 echo "-- Installing htop --"
 sudo apt-get install htop -y
 
-echo "-- Installing Spyder --"
-sudo apt-get install spyder -y
-
 echo "-- Installing tmux --"
 sudo apt-get update
 sudo apt-get install tmux
 
 echo "-- Installing r-base --"
+sudo add-apt-repository ppa:marutter/rdev -y
 sudo apt-get update
-sudo apt-get -y install r-base
-sudo apt-get install r-base-dev
+sudo apt-get upgrade  
+sudo apt-get install r-base r-base-dev  -y
 
 echo "-- Installing Gimp --"
 sudo apt-get install gimp -y
@@ -56,3 +54,8 @@ sudo apt-get install imagemagick
 
 echo "-- Installing pdftk --"
 sudo apt-get install pdftk
+
+
+echo "-- Installing RMarkdown Essentials --"
+sudo apt-get install texlive-latex-extra -y
+sudo apt-get install texlive-fonts-recommended -y
