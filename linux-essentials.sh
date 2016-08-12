@@ -59,3 +59,6 @@ sudo apt-get install pdftk
 echo "-- Installing RMarkdown Essentials --"
 sudo apt-get install texlive-latex-extra -y
 sudo apt-get install texlive-fonts-recommended -y
+
+echo "-- Installing Meld --"
+sudo apt-get install meld
