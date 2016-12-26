@@ -62,3 +62,6 @@ sudo apt-get install texlive-fonts-recommended -y
 
 echo "-- Installing Meld --"
 sudo apt-get install meld
+
+echo "-- Installing Ubuntu Indicator Icons --"
+sudo apt-get install indicator-multiload
